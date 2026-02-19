@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #3baf4e;
+        }
+
+        .form-container {
+            width: 350px;
+            margin: 100px auto;
+            padding: 20px;
+            border: 2px solid #333;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        button {
+            margin-top: 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Student Registration</h2>
+
+    <form>
+        <label>Full Name</label>
+        <input type="text" required>
+
+        <label>Email Address</label>
+        <input type="email" required>
+
+        <label>Course</label>
+        <select>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Business Management</option>
+            <option>Electrical Engineering</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
+
+        
